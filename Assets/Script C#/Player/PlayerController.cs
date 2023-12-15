@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {   
-    private Timer timer ;
+    public Timer timer ;
     public float moveSpeed = 5f;
     public float highMoveSpeed = 10f;
     public float highSpeedSeconds = 0f;
@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
      // Impostazione della durata del timer a 35 secondi
      void Start()
      {
-         timer = GetComponent<Timer>();
          timer.SetDuration(remainingDuration).Begin();    
      }
    

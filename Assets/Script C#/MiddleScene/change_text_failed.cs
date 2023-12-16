@@ -8,12 +8,14 @@ public class change_text_failed : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string testoScritta; // Riferimento al componente Text della scritta
-    public int score = ScoreManager.globalScore;
+    public int score;
     public float typingSpeed = 0.025f;
 
     // Start is called before the first frame update
     private void Start()
     {
+		ScoreManager scoreManager = Object.FindFirstObjectByType<ScoreManager>();
+        score = ScoreManager.globalScore;
         StartCoroutine(Type());
     }
 

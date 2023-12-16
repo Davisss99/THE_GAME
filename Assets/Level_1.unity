@@ -22942,6 +22942,10 @@ MonoBehaviour:
   maxCoins1: 41
   maxCoins2: 46
   maxCoins3: 132
+  Remaining1: 0
+  Remaining2: 0
+  Remaining3: 0
+  globalCoins: 0
 --- !u!114 &960533395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38829,7 +38833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1380.7, y: -381.1}
+  m_AnchoredPosition: {x: -1570, y: -525}
   m_SizeDelta: {x: 188, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576996730
@@ -44781,7 +44785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1577.5, y: -591.3}
+  m_AnchoredPosition: {x: 1646.3, y: -663}
   m_SizeDelta: {x: 242, y: 249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754565923
@@ -46522,7 +46526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1384.6, y: -804}
+  m_AnchoredPosition: {x: -1566.1, y: -804}
   m_SizeDelta: {x: 245, y: 262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1818035352
@@ -46773,7 +46777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1190.2, y: -591.3}
+  m_AnchoredPosition: {x: 1382, y: -663}
   m_SizeDelta: {x: 254, y: 261}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824997934

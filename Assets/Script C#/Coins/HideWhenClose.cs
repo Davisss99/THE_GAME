@@ -4,13 +4,13 @@ public class HideWhenClose : MonoBehaviour
 
 {
     public static int globalCoins=0;
+    //public static int globalCoinsLess;
     public Transform target; // The target object that triggers the hiding
     public float hideDistance = 0.001f; // Distance within which the object will be hidden
     public PlayerController player;
     public bool increaseSpeed=false;
     public bool increaseTime=false;
     public bool zoomOut=false;
-
     public bool isCoin=true;
 
     public ZoomCamera zoomCamera;
@@ -35,6 +35,7 @@ public class HideWhenClose : MonoBehaviour
                 objectRenderer.enabled = false;
                 if(isCoin){
                     globalCoins++;
+                    //globalCoinsLess = globalCoins;
                 }
                 if (increaseTime)  {
                     timer.remainingDuration += 5;

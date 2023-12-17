@@ -26,31 +26,31 @@ public class change_text : MonoBehaviour
         if (score < 3)
         {
             if (SceneManager.GetActiveScene().name == "ChangeScene12"){
-                testoScritta = "Congratulations, you have completed the first level!  Don't relax, this is just the beginning. We will put more and more pressure on you to understand how people with anxiety feel.";
+                testoScritta = "Congratulations, you have completed the first level!  Being healthy, free from anxiety or depression, enables you to perceive the world with clarity and without distortion. This is why you started with good visibility that allowed you to complete the level. But stay sharp!, this is just the beginning. We will be putting more and more pressure on you to understand how people with anxiety feel.";
             } else if (SceneManager.GetActiveScene().name == "ChangeScene23"){
-                testoScritta = "Congratulations, you have completed the second level! Don't give up because it's only a short time to get out of the cave.";
+                testoScritta = "Congratulations, you have completed the second level! Your game vision, as you could see, made it more difficult to collect coins and pay attention to the obstacles in front of you. In this level you were able to experience the distortion of reality that anxious people experience, so that in the future you can understand them better and help them. In spite of everything you are doing great. Don't give up because you are only a short time away from getting out of the quarry!";
             } else {
-                testoScritta = "Congratulations, you completed the game despite the pitfalls you were subjected to! You have experienced what it is like to be under pressure, think of those who have anxiety every day. Don't forget the lesson you learned today. ";
+                testoScritta = "Congratulations, you completed the game and managed to get out of the quarry despite the pitfalls you were subjected to! Through the game you were able to momentarily experience the feeling of having a distorted view of reality, similar to one that people who suffer from anxiety experience every day. Remember what you learned: a gem in the game makes everything easier and in real life that gem could be you helping anxious people. ";
             }
         }
         else if (score < 6)
         {
             if (SceneManager.GetActiveScene().name == "ChangeScene12"){
-                testoScritta = "Congratulations, you have completed the first level! Don't relax too much from now on the game will get tougher...but don't worry, you will get little helps to help you cope with the times when you feel anxiety.";
+                testoScritta = "Congratulations, you have completed the first level! As you have seen the game view is a bit narrow, this reflects how you feel some times. Don't let your guard down!, from now the game will get harder to make you relive what you sometimes feel because of anxiety and help you overcome it. But be careful because during the next level you can find little aids to help you cope better with these difficult moments.";
             } else if (SceneManager.GetActiveScene().name == "ChangeScene23"){
-                testoScritta = "Congratulations, you have completed the second level! Don't give up because it's just a little while before you can get out of the quarry.Don't worry if you're struggling because you'll have little helps that will allow you to complete the game.";
+                testoScritta = "Congratulations, you have completed the second level! As you saw things got more complicated, but with little help you managed to get by. The next level will not be easy, as well as those moments where you don't feel your best and this is where you will have to put into action what you have learned so far to overcome the difficulties. Don't give up because it's only a little while before you get out of the quarry!";
             } else {
-                testoScritta = "Congratulations, you completed the game! We put you under pressure but you managed to tackle the levels and cope on your own!";
+                testoScritta = "Congratulations, you completed the game and managed to get out of the quarry despite the pitfalls you were subjected to! You were tested and managed to cope in a beautiful way! Every time you overcome moments of anxiety, you strengthen your inner resilience. Remember, you are stronger than you think and capable of facing any challenge life throws your way. ";
             }
         }
         else
         {
             if (SceneManager.GetActiveScene().name == "ChangeScene12"){ 
-                testoScritta = "Congratulations, you have completed the first level! Don't worry if you had any difficulties, in the next levels you will be helped so that you can overcome each difficulty and get out of the cave.";
+                testoScritta = "Congratulations, you have completed the first level! Experiencing anxiety or depression leads to a blurred and distorted view of the reality around you. This is why, as you may have noticed, you started out with a dim view that did not allow you to complete the level with ease. Don't worry if you had any difficulties, in the next levels you will be able to find aids that will allow you to overcome the difficulties that appear in front of you.";
             } else if (SceneManager.GetActiveScene().name == "ChangeScene23"){
-                testoScritta = "Congratulations, you have completed the second level! Don't give up because it's just a short time to get out of the quarry, don't worry if you're in trouble because you'll have little helps that will allow you to complete the game.";
+                testoScritta = "Congratulations, you have completed the second level! Your game vision, as you could see made it easier to collect coins. As you could see it only takes a little to change the way you deal with difficulties, in the game, as in life. Despite everything you are doing great. Don't give up because it's only a short time to get out of the quarry!";
             } else {
-                testoScritta = "Congratulations, you completed the game! We put you under pressure but you managed to tackle the levels and cope on your own!";
+                testoScritta = "Congratulations, you have completed the game and managed to get out of the quarry despite the pitfalls you were subjected to!  By getting this far, you have proved to yourself that you are stronger than you think. Every time you overcome moments of anxiety, you strengthen your inner resilience. Remember, you are stronger than you think and you are able to face any challenge that life throws your way.";
             }
         }
 

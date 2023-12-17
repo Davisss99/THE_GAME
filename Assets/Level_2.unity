@@ -36351,7 +36351,7 @@ MonoBehaviour:
   highSpeedSeconds: 0
   rb: {fileID: 1423964322}
   nextScene: ChangeScene23Failed
-  remainingDuration: 35
+  remainingDuration: 45
 --- !u!50 &1423964322
 Rigidbody2D:
   serializedVersion: 4

@@ -47,7 +47,7 @@ public class change_text_failed : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "ChangeScene12Failed"){ 
                 testoScritta = "Mission failed! Don't worry, failure is not the end, embrace it, learn from it and improve your control . Click the button below to start again.";
             } else if (SceneManager.GetActiveScene().name == "ChangeScene23Failed"){
-                testoScritta = "Mission failed! Don't worry, your value is not defined by a game. It's okay to stumble; your strength lies in getting back up, both in the game and in life. Click the button below to start again.";
+                testoScritta = "Mission failed! Don't worry, your value is not defined by a game. It's okay to stumble. Your strength lies in getting back up, both in the game and in life. Click the button below to start again.";
             } else {
                 testoScritta = "Mission failed! the game has confronted you with a more difficult level, just as in life there are more complicated moments to overcome. Remember, it is normal to pause, breathe and start again. Your worth is not defined by wins or losses in a game. Click on the button below to start over.";
             }

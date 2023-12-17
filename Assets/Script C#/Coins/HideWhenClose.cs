@@ -38,7 +38,7 @@ public class HideWhenClose : MonoBehaviour
                     //globalCoinsLess = globalCoins;
                 }
                 if (increaseTime)  {
-                    timer.remainingDuration += 5;
+                    timer.remainingDuration += 10;
                 }
                 if (increaseSpeed)  {
                     player.highSpeedSeconds += 5.0f;

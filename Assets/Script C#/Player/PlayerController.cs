@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//this script contains extra code for player movement using keyboard
 public class PlayerController : MonoBehaviour
 {   
     public Timer timer ;
